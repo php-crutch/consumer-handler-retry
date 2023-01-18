@@ -1,0 +1,16 @@
+{
+  "name": "crutch/consumer-handler-retry",
+  "type": "library",
+  "description": "consumer retry handler",
+  "license": ["MIT"],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "crutch/consumer": "^1.0",
+    "crutch/producer": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crutch\\RetryConsumerHandler\\": "src/"
+    }
+  }
+}
