@@ -8,6 +8,9 @@
     "crutch/consumer": "^1.0",
     "crutch/producer": "^1.0"
   },
+  "provide": {
+    "crutch/consumer-implementation": "1.0"
+  },
   "autoload": {
     "psr-4": {
       "Crutch\\RetryConsumerHandler\\": "src/"
